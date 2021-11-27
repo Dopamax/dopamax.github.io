@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/limcompany/static/css/main.aed1b1fc.chunk.css",
+    "main.js": "/limcompany/static/js/main.d9848423.chunk.js",
+    "main.js.map": "/limcompany/static/js/main.d9848423.chunk.js.map",
+    "runtime-main.js": "/limcompany/static/js/runtime-main.1129bc9a.js",
+    "runtime-main.js.map": "/limcompany/static/js/runtime-main.1129bc9a.js.map",
+    "static/js/2.2b8dbf28.chunk.js": "/limcompany/static/js/2.2b8dbf28.chunk.js",
+    "static/js/2.2b8dbf28.chunk.js.map": "/limcompany/static/js/2.2b8dbf28.chunk.js.map",
+    "index.html": "/limcompany/index.html",
+    "precache-manifest.0a11988d4b5330db81ca2280b881ecc8.js": "/limcompany/precache-manifest.0a11988d4b5330db81ca2280b881ecc8.js",
+    "service-worker.js": "/limcompany/service-worker.js",
+    "static/css/main.aed1b1fc.chunk.css.map": "/limcompany/static/css/main.aed1b1fc.chunk.css.map",
+    "static/js/2.2b8dbf28.chunk.js.LICENSE.txt": "/limcompany/static/js/2.2b8dbf28.chunk.js.LICENSE.txt",
+    "static/media/Limo-Range-Rover.jpg": "/limcompany/static/media/Limo-Range-Rover.66f90db2.jpg",
+    "static/media/font-awesome.min.css": "/limcompany/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/hammerlim.jpg": "/limcompany/static/media/hammerlim.40d3512b.jpg",
+    "static/media/limexperience_pic.jpg": "/limcompany/static/media/limexperience_pic.5680179c.jpg",
+    "static/media/limousineford.jpg": "/limcompany/static/media/limousineford.b39197fc.jpg",
+    "static/media/limousineroyce.jpg": "/limcompany/static/media/limousineroyce.afcef29e.jpg",
+    "static/media/limousinesedan.jpg": "/limcompany/static/media/limousinesedan.e5882120.jpg",
+    "static/media/mystyle.css": "/limcompany/static/media/lincoln-stretch-limousine.aeeb385f.jpg",
+    "static/media/lincolnlim.jpeg": "/limcompany/static/media/lincolnlim.79ce710e.jpeg",
+    "static/media/newyork_wallpaper.jpg": "/limcompany/static/media/newyork_wallpaper.05affb23.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1129bc9a.js",
+    "static/js/2.2b8dbf28.chunk.js",
+    "static/css/main.aed1b1fc.chunk.css",
+    "static/js/main.d9848423.chunk.js"
+  ]
+}
