@@ -6,12 +6,16 @@ import Accueil from "./pages/accueil/Accueil";
 import './assets/css/mystyle.css';
 import './assets/css/styleheader.css';
 import './assets/css/app.css';
+import Conditions from "./pages/conditionsutilisation/Conditions";
+import Nouveaudossier from "./pages/Nouveaudossier/Nouveaudossier";
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Accueil/>} />
+      <Route path="/Conditions" element={<Conditions/>} />
+      <Route path="/Nouveaudossier" element={<Nouveaudossier/>} />
     </Routes>
   </BrowserRouter>
   );

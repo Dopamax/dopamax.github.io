@@ -1,5 +1,7 @@
 import { Component} from 'react';
 import logo from '../../assets/img/logo_taw3iya.webp';
+import playtorepng from "../../assets/img/download-playstore-png.png";
+import { Link } from 'react-router-dom';
 
 const Footer=()=>{
     return (
@@ -10,23 +12,29 @@ const Footer=()=>{
               <img src={logo} className="img-fluid w-50 mx-4 p-3" alt="Taw3iya"/>
               <p className="text-white p-3 m-3 text-justify">Taw3iya est une plateforme avec accès WEB contient un dossier médical digital de référence et ce projet va aider à sensibiliser les gens et la plateforme va aider le corps médical et les urgentistes à connaitre rapidement si le patient souffre d'une allergie ou il a une maladie chronique, aussi le groupe  sanguin, poids et toutes les informations principales.</p>
           </div>
-          <div className="col-md-4">
-          <div className="mx-auto my-auto mx-5 px-5 my-5 py-5">
-                  <h3 className="text-white">Info</h3>
-                  <a href="https://www.jobbsmaroc.com/" target="_blank" rel="noopener noreferrer"><h5 className="text-white">www.jobbsmaroc.com</h5></a>
+          <div className="col-md-4 my-auto">
+                <div className="row my-auto">
+                    <div className="col-md-12">
+                    <ul className="list-unstyled d-flex align-items-start flex-column h5">
+          <li className="mb-4 pb-2"><Link className="text-start text-white text-decoration-none" to="/Nouveaudossier">Nouveau dossier</Link></li>
+          <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="#">Se connecter</a></li>
+          <li className="mb-4 pb-2"><a className="text-white text-decoration-none" href="#">A propos du dossier médical</a></li>
+          <li className="mb-4 pb-2"><Link className="text-white text-decoration-none" to="/Conditions">Conditions d'utilisation</Link></li>
+        </ul>
+                    </div>
+                </div>
           </div>
-          </div>
-          <div className="col-md-4">
-              <div className="mx-auto my-auto mx-5 px-5 my-5 py-5">
-                  <h4 className="text-white">Suivez-nous</h4>
-                  <a href="https://www.facebook.com/Jobbsmaroc-103540531642199/" target="_blank" rel="noopener noreferrer">
-                  <span className="fa-stack fa-lg text-white">
-                  <i className="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-                  </span>
-                  </a>
-                  <h4 className="text-white mt-5 ">Email: </h4>
-                  <h5 className="text-white fontCentury">contact@jobbsmaroc.com</h5>
-              </div>
+          <div className="col-md-4 my-auto">
+                <div className="row my-auto">
+                    <div className="col-md-12">
+                    <ul className="list-unstyled d-flex align-items-start flex-column h5">
+          <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="#">Télécharger l'application</a></li>
+          <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="https://play.google.com/store/apps/details?id=com.sensibilisationapp.com" target="_blank">
+           <img src={playtorepng} width="180px" alt="Télécharger Taw3iya" />
+           </a></li>
+        </ul>
+                    </div>
+                </div>
           </div>
       </div>
   </div>
