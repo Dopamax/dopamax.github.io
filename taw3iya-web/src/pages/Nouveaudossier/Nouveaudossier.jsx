@@ -14,7 +14,7 @@ const Nouveaudossier=()=>{
                 </div>
                 <div className="row">
                     <div className="col-md-2"></div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 px-5">
                         <form action="">
                             <div className="mb-3">
                               <input type="text" name="telephone" id="telephone" className="form-control" placeholder="Téléphone" aria-describedby="telephoneHelp"/>
@@ -33,22 +33,22 @@ const Nouveaudossier=()=>{
                             </div>
                             <div className="mb-3">
                               <label for="maladie_chronique" className="form-label my-1 mr-5">Avez-vous une maladie chronique ?</label>
-                              <div className="form-check form-check-inline">
+                              <div className="form-check ">
                                 <input className="form-check-input" type="radio" name="maladie_chronique" id="maladie_chronique_oui" value="oui"/>
                                 <label className="form-check-label" for="maladie_chronique_oui">Oui</label>
                                 </div>
-                                <div className="form-check form-check-inline">
+                                <div className="form-check">
                                 <input className="form-check-input" type="radio" name="maladie_chronique" id="maladie_chronique_non" value="non"/>
                                 <label className="form-check-label" for="maladie_chronique_non">Non</label>
                                 </div>
                             </div>
                             <div className="mb-3">
                               <label for="" className="form-label my-1 mr-5">Avez-vous une allergie ?</label>
-                              <div className="form-check form-check-inline">
+                              <div className="form-check">
                                 <input className="form-check-input" type="radio" name="allergie" id="allergie_oui" value="oui"/>
                                 <label className="form-check-label" for="allergie_oui">Oui</label>
                                 </div>
-                                <div className="form-check form-check-inline">
+                                <div className="form-check">
                                 <input className="form-check-input" type="radio" name="allergie" id="allergie_non" value="non"/>
                                 <label className="form-check-label" for="allergie_non">Non</label>
                                 </div>

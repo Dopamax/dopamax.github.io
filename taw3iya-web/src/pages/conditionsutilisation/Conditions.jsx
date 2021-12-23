@@ -7,7 +7,7 @@ const Conditions =() =>{
         <div>
             <div className="row my-5">
                 <div className="col-md-2"></div>
-                <div className="col-md-8 my-5 py-5">
+                <div className="col-md-8 my-5 py-5 p-5">
                 <h2><strong>Terms and Conditions</strong></h2>
 
 <p>Welcome to Taw3iya!</p>

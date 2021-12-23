@@ -8,6 +8,7 @@ import './assets/css/styleheader.css';
 import './assets/css/app.css';
 import Conditions from "./pages/conditionsutilisation/Conditions";
 import Nouveaudossier from "./pages/Nouveaudossier/Nouveaudossier";
+import Apropsdossiermedical from "./pages/Apropsdossiermedical/Aproposdossiermedical";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Accueil/>} />
       <Route path="/Conditions" element={<Conditions/>} />
       <Route path="/Nouveaudossier" element={<Nouveaudossier/>} />
+      <Route path="/Aproposdossier" element={<Apropsdossiermedical/>} />
     </Routes>
   </BrowserRouter>
   );

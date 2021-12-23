@@ -25,7 +25,7 @@ const Topnav=()=>{
               <a className="nav-link mx-3 li-element a-class text-white" href="https://play.google.com/store/apps/details?id=com.sensibilisationapp.com" target="_blank"><i className="mx-1 fa fa-bullhorn" aria-hidden="true"></i>Application Taw3iya</a>
               </li>
               <li className="nav-item">
-              <a className="nav-link mx-3 li-element a-class text-white" ><i className="mx-1 fa fa-bullhorn" aria-hidden="true"></i>A propos du dossier médical</a>
+              <Link className="nav-link mx-3 li-element a-class text-white" to="/Aproposdossier" ><i className="mx-1 fa fa-bullhorn" aria-hidden="true"></i>A propos du dossier médical</Link>
               </li>
              
           </ul>

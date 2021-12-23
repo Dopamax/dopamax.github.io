@@ -15,10 +15,10 @@ const Footer=()=>{
           <div className="col-md-4 my-auto">
                 <div className="row my-auto">
                     <div className="col-md-12">
-                    <ul className="list-unstyled d-flex align-items-start flex-column h5">
+                    <ul className="list-unstyled d-flex align-items-start flex-column h5 ml-4 pl-1">
           <li className="mb-4 pb-2"><Link className="text-start text-white text-decoration-none" to="/Nouveaudossier">Nouveau dossier</Link></li>
           <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="#">Se connecter</a></li>
-          <li className="mb-4 pb-2"><a className="text-white text-decoration-none" href="#">A propos du dossier médical</a></li>
+          <li className="mb-4 pb-2"><Link className="text-white text-decoration-none" to="/Aproposdossier">A propos du dossier médical</Link></li>
           <li className="mb-4 pb-2"><Link className="text-white text-decoration-none" to="/Conditions">Conditions d'utilisation</Link></li>
         </ul>
                     </div>
@@ -27,7 +27,7 @@ const Footer=()=>{
           <div className="col-md-4 my-auto">
                 <div className="row my-auto">
                     <div className="col-md-12">
-                    <ul className="list-unstyled d-flex align-items-start flex-column h5">
+                    <ul className="list-unstyled d-flex align-items-start flex-column h5 ml-4 pl-1">
           <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="#">Télécharger l'application</a></li>
           <li className="mb-4 pb-2"><a className="text-start text-white text-decoration-none" href="https://play.google.com/store/apps/details?id=com.sensibilisationapp.com" target="_blank">
            <img src={playtorepng} width="180px" alt="Télécharger Taw3iya" />
